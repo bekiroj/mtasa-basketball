@@ -1,0 +1,11 @@
+<meta>
+    <!-- @bekiroj liblua basketball-->
+    <oop>true</oop>
+    <script src='libs/classes.lua' type='client' cache='false'/>
+    <script src='index.lua' type='client' cache='false'/>
+    <script src='events.lua' type='server'/>
+    <map src="map/ball.map" dimension="0"></map>
+    <script src="map/server.lua" type="server"></script>
+    <script src="map/client.lua" type="client" validate="false"></script>
+    <min_mta_version server="1.5.8-9.20957"></min_mta_version>
+</meta>
